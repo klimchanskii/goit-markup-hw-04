@@ -1,0 +1,488 @@
+
+/* черный заголовки #212121
+синий 2196F3 
+серий основой текст 757575
+чисто черный 000000
+фон ECECEC
+белый FFFFFF
+фон героя 2F303A
+чем мы занимемся фон
+фон наша команад F5F4FA
+адрес color: rgba(255, 255, 255, 0.6);
+*/
+
+/* Глобальные стили start */
+:root{--blue-main:#2196F3 ; 
+--black-main:#212121;
+--gray-main:#757575;
+--white-color:#ffffff;
+--team-color:#F5F4FA;
+--logo-footer:#2F303A;
+--address-color:rgba(255, 255, 255, 0.6);
+--back-cards: #EEEEEE;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--gray-main);
+    
+}
+ul,li{list-style-type:none;
+padding-left: 0px;
+margin: 0;
+padding: 0;}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+.container {
+        width: 1200px;
+        padding: 0 15px;
+        text-align: center;
+        margin: auto;}
+
+ .visually-hidden { 
+            position: absolute; 
+            width: 1px; 
+            height: 1px; 
+            margin: -1px; 
+            border: 0; 
+            padding: 0; 
+            white-space: nowrap; 
+            clip-path: inset(100%); 
+            clip: rect(0 0 0 0); 
+            overflow: hidden; 
+          } 
+
+.section{
+            padding: 94px 0;       }
+
+    /* Глобальные стили end */
+
+/* ШАПКА START*/
+
+
+        
+
+        .header{display: flex;
+        align-items: center;
+    }
+    header{
+        border-bottom: 1px solid var(--back-cards);
+    }
+       
+        
+
+        .logo{color: var(--blue-main);
+            display: inline-flex;
+            margin-right: 93px;
+            
+
+            text-decoration: none;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.192;
+            letter-spacing: 0.03em;    }
+            
+           .logo-black{color: var(--black-main);}
+
+
+        .nav {color:var(--black-main);
+            display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            cursor: pointer;  
+            
+            
+            font-style: normal;
+            font-weight: 500;           
+            line-height: 1.142;
+            letter-spacing: 0.02em;
+            text-decoration: none;         }
+
+        .link+.link{margin-left: 50px;}
+
+
+          
+
+        .mail-tel{     
+            display: flex;      
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.142;
+            letter-spacing: 0.02em; }
+
+            .mail-nav{
+                margin-left: 331px;
+                color: var(--gray-main);
+                text-decoration: none;            }
+            
+            .tel-nav{
+                margin-right: auto;
+                margin-left: 50px;
+                
+                 color:var(--gray-main);
+                 text-decoration: none;  
+                           }
+               
+            .mail-nav:focus,
+            .mail-nav:hover
+            {color: var(--blue-main);}
+                
+            .tel-nav:hover,
+            .tel-nav:focus {color: var(--blue-main);}
+            .nav:focus,
+            .nav:active,            
+            .nav:hover   
+            {color: var(--blue-main);}
+            .nav:active{color: var(--blue-main);}
+            .nav-studio{color: var(--blue-main);}
+            
+            
+
+                
+            
+            /* ШАПКА END */
+        
+
+
+/* ПОДВАЛ START*/
+
+        .back-footer
+           {background-color: var(--logo-footer) ;
+            padding-top: 60px;
+            padding-bottom: 60px;
+           }
+           .back-footer>.container{
+            text-align: start;    }
+
+            .container>.logo {
+                
+                margin-top: 0;
+                margin-bottom: 20px;
+                display: block
+                ;
+            }        
+
+        .logo-white
+        {color:var(--white-color);}
+        
+        .address
+        { color: var(--team-color);     
+        font-style: normal;  
+          }
+
+        address  a{
+            font-style: normal;               }
+            .address-bottom{margin-bottom: 9px;}
+
+        .mail-footer
+        {color: var(--address-color);
+         text-decoration: none;
+         
+        }
+
+        .tel-footer{
+            display: block;                            
+            color: var(--address-color);
+             text-decoration: none;
+            }
+
+       
+/* FOOTER END */
+
+
+
+
+
+/* СЕКЦИЯ 1 ГЕРОЙ */
+            .hero{
+                max-width: 1600px;
+                margin: 0 auto;
+                background-position: center;
+                
+                padding-top: 200px;
+                padding-bottom: 200px;
+                background-color: var(--logo-footer);   
+                
+                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url(../images/back-and-svg/back.jpg);
+                    
+                 
+
+                
+                 
+                   }
+
+          
+        .hero-text{
+            
+            color: var(--white-color);
+            max-width: 696px;
+            margin-left: auto;
+            margin-right: auto;    
+            
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            
+            
+            letter-spacing: 0.06em;
+            text-transform: uppercase;       }
+
+        .button-hero{
+            margin-top: 30px;
+            width: 200px;
+            height: 50px;
+            
+            
+            text-align: center;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px; 
+            border: none;   
+            
+            color: var(--white-color);
+            background-color: var(--blue-main);
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.06em;                   }
+        
+            /* SECTION 1 END */
+
+
+
+
+
+
+
+/* СЕКЦИЯ 2 Особенности START*/
+
+        .items{
+            display: flex; 
+                }
+
+
+       .aside:nth-last-child(n+2){
+           margin-right: 30px;      }
+           .aside{text-align: left;
+
+           }
+       
+
+        .item{
+            margin-bottom: 10px;
+            
+            color: var(--black-main);                  
+            line-height: 1.42;
+            font-size: 14px;
+            text-transform: uppercase;          } 
+
+            /* SECTION 2 END */
+
+                  
+
+
+/* СЕКЦИЯ 3  Чем мы занимаемся START*/
+
+        .title{
+            margin-bottom: 50px;
+            color: var(--black-main);
+            font-size: 36px;
+            line-height: 1.66;
+            text-align: center;      }
+        .items-img{
+            display: flex;      }
+
+        
+
+        .list-img:nth-child(-n + 2){margin-right: 30px;}
+        .section-zero{
+            padding-top: 0;
+            
+        }
+        .list-img>img{
+            display: block;
+            max-width: 370px;
+            
+        }
+
+        /* SECTION 3 END */
+
+/* СЕКЦИЯ 4 Наша команда START*/
+        .section-team{
+            
+           background-color: var(--team-color);
+        }
+        .list-team{
+            display: flex;
+        }
+        .dream-team{
+            margin-bottom: 50px;
+            color: var(--black-main);   
+            font-size: 36px;
+            line-height: 1.66;
+            text-align: center;
+        }
+        .items-name{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: var(--black-main);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.187;
+            text-align: center;
+            }
+
+        .profession{
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 1.187;
+            text-align: center;   
+            }
+            .list-team > li+li {margin-left: 30px;}
+            .list-team  img{
+                display: block;
+                
+            }
+            .list-team li {
+                background-color: var(--white-color);
+                box-shadow:
+                0px 1px 3px rgba(0, 0, 0, 0.12), 
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+                border-radius: 0px 0px 4px 4px;
+
+            }
+
+            /* SECTION 4 END */
+            
+
+
+
+
+            /* ПОРТФОЛИО */
+
+            /* КНОПКИ START */
+
+    .hero-portfolio{
+         font-size: 0px;
+        }
+     .list-button{
+        display: flex;
+        justify-content: center;  
+        margin-bottom: 56px;     
+    }
+    .list-button> li+li{margin-left: 8px;}
+
+    .button{
+        
+        
+        border-radius: 4px;
+        padding: 6px 22px;
+        border:var(--team-color) ;
+        
+        background: var(--team-color);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;   }
+
+    .button:focus,
+    .button:hover,
+    .button:active {
+        background-color: var(--blue-main);
+        color: var(--white-color);   }
+
+    
+
+   
+    /* BUTTON END */
+
+    
+
+ /* НАШИ РАБОТЫ  */
+
+    
+
+
+
+
+         .work-items{
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+            
+        }
+
+
+        .work-name a{
+
+            text-decoration: none;
+           
+        
+        }       
+        .work-item img{
+            display: block;
+        }       
+        .work-name> h2{
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--black-main);
+        
+        margin-bottom: 4px;
+        }
+        .work-name> p {
+            font-size: 16px;
+            line-height: 1.875;
+            color: var(--gray-main);
+            
+        }   
+        .work-name{
+            
+            padding: 20px 24px;
+            text-align: start;
+
+            border-right:  1px solid var(--back-cards);
+            border-bottom: 1px solid var(--back-cards);
+            border-left: 1px solid var(--back-cards);
+
+        }
+        .work-link{
+            text-decoration: none;
+
+        }
+
+        .work-item{
+            margin-bottom: 30px;
+            margin-right: 30px;
+            flex-basis: 370px;
+            background-color: var(--white-color);
+            
+
+        }
+        .work-item:nth-child(3n + 3)
+        {margin-right: 0;}
+        .work-item:nth-last-child(-n + 3)
+        {  margin-bottom: 0;
+        }
+          
+        
+        /* WE WORK END  */
+        
+
+    
