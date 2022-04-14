@@ -20,6 +20,7 @@
 --logo-footer:#2F303A;
 --address-color:rgba(255, 255, 255, 0.6);
 --back-cards: #EEEEEE;
+--client-color:#AFB1B8;
 }
 body{
     font-family:'Roboto', sans-serif;
@@ -229,6 +230,14 @@ h1,h2,h3,h4,p{
              text-decoration: none;
             }
 
+
+
+
+
+
+
+            
+
        
 /* FOOTER END */
 
@@ -427,7 +436,7 @@ h1,h2,h3,h4,p{
             }
             .tumb-social:hover{
                 color: var(--white-color);
-                background-color: #2196F3;
+                background-color: var(--blue-main);
             }
             .social-icon{
                 fill: currentColor;
@@ -460,8 +469,24 @@ h1,h2,h3,h4,p{
         .client:nth-child(6){
             margin: 0px;
         } 
-        .link-client{} 
-           
+        .link-client{
+            display: block;
+            background-color: var(--white-color);
+            color: var(--client-color);
+            padding: 16px 32px;
+            border: 1px solid #AFB1B8;
+            align-items: center;
+            
+            border-radius: 4px;
+        } 
+        .link-client:hover{
+            color: var(--blue-main);
+            border: 1px solid var(--blue-main);
+        }
+        .icon-client{
+            fill: currentColor;
+        }
+        
 
 
 
@@ -469,7 +494,7 @@ h1,h2,h3,h4,p{
         .icon-client{
             width: 106px;
             height: 60px;
-           padding: 16px 32px;
+           
         } 
 
 
