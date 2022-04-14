@@ -198,7 +198,7 @@ h1,h2,h3,h4,p{
            .back-footer>.container{
             text-align: start;    }
 
-            .container>.logo {
+            .container .logo {
                 
                 margin-top: 0;
                 margin-bottom: 20px;
@@ -229,14 +229,63 @@ h1,h2,h3,h4,p{
             color: var(--address-color);
              text-decoration: none;
             }
-
-
-
-
-
-
-
+            .footer-page{
+                font-weight: 700;
+               
+                line-height: 1.142;
             
+                color: var(--white-color);
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                margin-left: 70px;
+            }
+
+                /* icon-footer */
+            .footer-container{
+                display: flex;
+
+            }
+            .footer-social{
+                display: flex;
+                margin-left: 70px;
+            }
+
+            .icon-footer{
+                width: 20px;
+                height: 20px  ;
+               
+            }
+        
+            
+
+            .link-footer{
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.1);
+                color: var(--white-color);
+                width: 44px;
+                height: 44px;
+                display: flex;
+                
+                
+                justify-content: center;
+                align-items: center;
+            }           
+            .footer-social>.list :hover{
+                background-color: var(--blue-main);}
+            .footer-social>.list+.list{
+                margin-left: 10px;
+            }
+            
+            .icon-footer{
+                fill: currentColor;
+            }
+            
+
+
+
+
+
+
 
        
 /* FOOTER END */
@@ -598,6 +647,15 @@ h1,h2,h3,h4,p{
             border-left: 1px solid var(--back-cards);
 
         }
+        
+        .work-item:hover{
+            box-shadow:
+             0px 1px 1px rgba(0, 0, 0, 0.12),
+             0px 4px 4px rgba(0, 0, 0, 0.06),
+             1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+
+
         .work-link{
             text-decoration: none;
 
