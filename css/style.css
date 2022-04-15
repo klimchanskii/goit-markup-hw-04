@@ -84,8 +84,8 @@ h1,h2,h3,h4,p{
     header{
         border-bottom: 1px solid var(--back-cards);
     }
+    
        
-        
 
         .logo{color: var(--blue-main);
             display: inline-flex;
@@ -198,7 +198,7 @@ h1,h2,h3,h4,p{
            .back-footer>.container{
             text-align: start;    }
 
-            .container .logo {
+            .footer-container .logo {
                 
                 margin-top: 0;
                 margin-bottom: 20px;
