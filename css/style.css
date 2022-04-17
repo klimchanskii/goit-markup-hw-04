@@ -237,28 +237,30 @@ h1,h2,h3,h4,p{
                 color: var(--white-color);
                 text-transform: uppercase;
                 margin-bottom: 20px;
-                margin-top: 12px;
+                
+                
+            }
+            .tumb-footer{
                 margin-left: 70px;
             }
 
                 /* icon-footer */
             .footer-container{
                 display: flex;
+                align-items: baseline;
 
             }
             .footer-social{
                 display: flex;
-                margin-left: 70px;
+               
             }
+
+
 
             .icon-footer{
                 width: 20px;
-                height: 20px  ;
-               
-            }
-        
-            
-
+                height: 20px  ;              
+            }           
             .link-footer{
                 border-radius: 50%;
                 background-color: rgba(255, 255, 255, 0.1);
@@ -382,22 +384,16 @@ h1,h2,h3,h4,p{
             
             /* icon */
             .tumb{
+                display: flex;
+                justify-content: center;
+                align-items: center;
             width: 270px;
             height: 120px;
             margin-bottom: 30px;
             background-color: var(--team-color);
-
-            }
-            .icon-antenna,
-            .icon-clock,
-            .icon-diagram,
-            .icon-astronaut{
-                
-                margin: 25px 100px;
-            }
-               
+                }
             
-
+        
             /* SECTION 2 END */
 
                   
@@ -482,7 +478,7 @@ h1,h2,h3,h4,p{
                 align-items: center;
                                 
                 background-color: var(--white-color);
-                color: var(--gray-main);
+                color: var(--client-color);
             }
             .tumb-social:hover{
                 color: var(--white-color);
@@ -511,22 +507,22 @@ h1,h2,h3,h4,p{
          .client-item{           
             margin-right: 30px;
             
-            border: 1px solid #AFB1B8;
-            align-items: center;
             
-            border-radius: 4px;
         } 
         .client:nth-child(6){
             margin: 0px;
         } 
         .link-client{
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 170px;
+            height: 92px;
             background-color: var(--white-color);
             color: var(--client-color);
-            padding: 16px 32px;
-            border: 1px solid #AFB1B8;
-            align-items: center;
             
+            border: 1px solid #AFB1B8;
             border-radius: 4px;
         } 
         .link-client:hover{
@@ -648,8 +644,13 @@ h1,h2,h3,h4,p{
             border-left: 1px solid var(--back-cards);
 
         }
+         .work-link{
+             display: block;
+            text-decoration: none;
+
+        }
         
-        .work-item:hover{
+        .work-link:hover{
             box-shadow:
              0px 1px 1px rgba(0, 0, 0, 0.12),
              0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -657,10 +658,7 @@ h1,h2,h3,h4,p{
         }
 
 
-        .work-link{
-            text-decoration: none;
-
-        }
+       
 
         .work-item{
             margin-bottom: 30px;
