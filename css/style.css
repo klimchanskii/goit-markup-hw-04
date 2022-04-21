@@ -48,6 +48,7 @@ h1,h2,h3,h4,p{
         margin: auto;}
 
  .title{
+
         margin-bottom: 50px;
         color: var(--black-main);   
         font-size: 36px;
@@ -127,9 +128,7 @@ h1,h2,h3,h4,p{
             font-weight: 500;
             line-height: 1.142;
             letter-spacing: 0.02em; }
-            /* .mail-tel li{
-                display: flex;
-            } */
+            
             
 
 
@@ -168,7 +167,7 @@ h1,h2,h3,h4,p{
             .icon-envelope {
                 margin-right: 10px;
                 fill: currentColor;
-                box-sizing: content-box;
+                
                 
             }
             .icon-envelope:hover {
